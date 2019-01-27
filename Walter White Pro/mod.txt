@@ -1,0 +1,23 @@
+{
+	"name": "Walter White Pro",
+	"description": "Increases cooking speed, become like Walter White!",
+	"author": "Kaitlyn/Kathryn Levelle",
+	"contact": " ",
+	"version": "1",
+	"priority": 1,
+	"blt_version": 2,
+	"hooks": [
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/function4others.lua"
+		},
+		{
+			"hook_id": "core/lib/managers/mission/coremissionscriptelement",
+			"script_path": "lua/coremissionscriptelement.lua"
+		},
+		{
+			"hook_id": "core/lib/managers/mission/coreelementtimer",
+			"script_path": "lua/coreelementtimer.lua"
+		}
+	]
+}
